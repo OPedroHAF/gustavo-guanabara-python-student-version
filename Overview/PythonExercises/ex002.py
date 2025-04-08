@@ -1,0 +1,10 @@
+value = input('Type something: ')
+
+print('Type:{}'.format(type(value)))
+print('NumericOnly: {}'.format(value.isnumeric()))
+print('Alphanumeric: {}'.format(value.isalnum()))
+print('AlphaOnly: {}'.format(value.isalpha()))
+print('LowerOnly: {}'.format(value.islower()))
+print('UpperOnly: {}'.format(value.isupper()))
+print('SpaceOnly: {}'.format(value.isspace()))
+print('Capitalized: {}'.format(value.istitle()))
